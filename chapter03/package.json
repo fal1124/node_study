@@ -1,0 +1,15 @@
+{
+    "exports": {
+        "import": "./wrapper.mjs",
+        "require": "./index.cjs"
+    },
+    "private": true,
+    "dependencies": {
+        "undici": "^8.5.0"
+    },
+    "scripts": {
+        "prebuild": "echo 'pre build'",
+        "build": "echo 'build'",
+        "postbuild": "echo 'post build'"
+    }
+}
